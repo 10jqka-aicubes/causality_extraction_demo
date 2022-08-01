@@ -18,10 +18,10 @@
   - python3.7以上
   - 安装python依赖 
   - python -m pip install -r requirements.txt
-- 准备数据，从官网下载数据
+- 准备数据，从官网[下载数据](http://contest.aicubes.cn/#/detail?topicId=84)
    - 训练集存放在train/run.sh的--raw_data_dir对应的路径下
    - 测试集重命名为test.txt，存放在predict/run.sh的--raw_data_dir对应的路径下 
-- 调整参数配置，参考模板项目的说明，主要配置文件causality_extraction_demo/setting.conf, 配置模型训练
+- 调整参数配置，参考[模板项目](https://github.com/10jqka-aicubes/project-demo)的说明，主要配置文件causality_extraction_demo/setting.conf, 配置模型训练
 涉及的超参数在util/config.py进行修改；
 - 运行
    - 训练
