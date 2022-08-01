@@ -11,7 +11,7 @@
 
 ## 如何运行demo
 - clone代码
-- 预训练模型下载，https://github.com/brightmart/roberta_zh，版本为RoBERTa_zh_L12，torch版，将
+- 预训练模型下载，版本为[RoBERTa_zh_L12，torch版](https://github.com/brightmart/roberta_zh)，将
 下载的预训练模型放在项目的一个文件夹里，然后修改util/config.py中对应路径；
 - 准备环境 
   - cuda11.0以上
